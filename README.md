@@ -33,15 +33,15 @@ Hey dude! Help me out for a couple of :beers: or a :coffee:!
 
 ## Action Options
 
-| Name            | Type   | Requirement  | Description                                                                                                                            | Default     |
-| --------------- | ------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| action          | string | **Required** | Action to perform (more-info, toggle, call-service, navigate url, none)                                                                | `more-info` |
-| navigation_path | string | **Optional** | Path to navigate to (e.g. /lovelace/0/) when action defined as navigate                                                                | `none`      |
-| url             | string | **Optional** | URL to open on click when action is url. The URL will open in a new tab                                                                | `none`      |
-| service         | string | **Optional** | Service to call (e.g. media_player.media_play_pause) when action defined as call-service                                               | `none`      |
-| service_data    | object | **Optional** | Service data to include (e.g. entity_id: media_player.bedroom) when action defined as call-service                                     | `none`      |
-| haptic          | string | **Optional** | Haptic feedback _success, warning, failure, light, medium, heavy, selection_ | `none`      |
-| repeat          | number | **Optional** | How often to repeat the `hold_action` in milliseconds.                                                                                 | `none`       |
+| Name            | Type   | Requirement  | Description                                                                                        | Default     |
+| --------------- | ------ | ------------ | -------------------------------------------------------------------------------------------------- | ----------- |
+| action          | string | **Required** | Action to perform (more-info, toggle, call-service, navigate url, none)                            | `more-info` |
+| navigation_path | string | **Optional** | Path to navigate to (e.g. /lovelace/0/) when action defined as navigate                            | `none`      |
+| url             | string | **Optional** | URL to open on click when action is url. The URL will open in a new tab                            | `none`      |
+| service         | string | **Optional** | Service to call (e.g. media_player.media_play_pause) when action defined as call-service           | `none`      |
+| service_data    | object | **Optional** | Service data to include (e.g. entity_id: media_player.bedroom) when action defined as call-service | `none`      |
+| haptic          | string | **Optional** | Haptic feedback _success, warning, failure, light, medium, heavy, selection_                       | `none`      |
+| repeat          | number | **Optional** | How often to repeat the `hold_action` in milliseconds.                                             | `none`      |
 
 ## Starting a new card from boilerplate-card
 
@@ -105,6 +105,10 @@ error @typescript-eslint/eslint-plugin@2.6.0: The engine "node" is incompatible 
 error Found incompatible module
 info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
 ```
+
+## Test Image
+
+![The San Juan Mountains are beautiful!](/demo_image.jpg 'San Juan Mountains')
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/custom-cards/boilerplate-card.svg?style=for-the-badge
 [commits]: https://github.com/custom-cards/boilerplate-card/commits/master
