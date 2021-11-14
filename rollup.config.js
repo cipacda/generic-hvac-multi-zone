@@ -32,7 +32,7 @@ const plugins = [
 
 export default [
   {
-    input: 'src/boilerplate-card.ts',
+    input: 'src/generic-hvac-multi-zone.ts',
     output: {
       dir: 'dist',
       format: 'es',
